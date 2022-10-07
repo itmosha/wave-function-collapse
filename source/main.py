@@ -4,7 +4,7 @@ from wfc import WFC
 
 SCREEN_WIDTH, SCREEN_HEIGHT = 960, 640
 X_CELLS_COUNT, Y_CELLS_COUNT = SCREEN_WIDTH // 32, SCREEN_HEIGHT // 32
-SET_NUMBER = 1
+SET_NUMBER = 2
 
 if __name__ == "__main__":
     pygame.init()
