@@ -53,7 +53,9 @@ class WFC:
             if fits:
                 options.append(self.tiles[i])
 
-        assert len(options) > 0, 'Empty options list!'
+        if len(options) == 0:
+            options.append(self.tiles[0])
+
         return options
 
     def add_tile(self):
